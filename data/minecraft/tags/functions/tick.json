@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "safe_spaces:tick",
+        "safe_spaces:repeat_bool"
+    ]
+}
