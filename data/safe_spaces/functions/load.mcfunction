@@ -1,3 +1,6 @@
+#Remove safe_spaces:test/root advancement for all playesr
+advancement revoke @a only safe_spaces:test/root
+
 #Setup scoreboards for tracking player interactions
 #--------Walking---------
 scoreboard objectives add safeSpaces_walk_helper minecraft.custom:minecraft.walk_one_cm
