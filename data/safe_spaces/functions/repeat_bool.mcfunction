@@ -11,7 +11,7 @@ scoreboard players set @a safeSpaces_used_helper 0
 
 
 
-execute as @a if entity @s[scores={safeSpaces_used_bool=1}] run
+#execute as @a if entity @s[scores={safeSpaces_used_bool=1}] run
 
 
 #data get entity @s Pos

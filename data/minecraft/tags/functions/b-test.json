@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "safe_spaces:repeat_bool"
+        "safe_spaces:b-test"
     ]
 }
