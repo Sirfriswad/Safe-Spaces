@@ -10,4 +10,4 @@ scoreboard objectives add safeSpaces_used_helper minecraft.used:stone
 scoreboard objectives add safeSpaces_used_bool dummy
 
 
-say safe_spaces loaded
+say safe_spaces loaded dawg!
