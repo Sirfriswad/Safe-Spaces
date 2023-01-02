@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {
+            "text": "Safe Space",
+            "color": "#FF0000",
+            "bold": true
+        },
+        "description": {
+            "text": "my advancement",
+            "color": "white",
+            "bold": true
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/stone.png"
+    },
+    "criteria": {
+        "placed stone block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:stone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "safe_spaces:placed_safezone"
+    }
+}
